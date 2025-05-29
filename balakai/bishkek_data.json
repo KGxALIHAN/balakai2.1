@@ -1,0 +1,32 @@
+{
+  "districts": [
+    {
+      "name": "Leninsky",
+      "geometry": {"type": "Polygon", "coordinates": [[[74.55, 42.85], [74.60, 42.85], [74.60, 42.90], [74.55, 42.90], [74.55, 42.85]]]},
+      "population_stats": [{"year": 2020, "total_population": 284000, "school_age_population": 26700, "preschool_age_population": 25500}, {"year": 2021, "total_population": 290000, "school_age_population": 27200, "preschool_age_population": 26000}, {"year": 2022, "total_population": 295000, "school_age_population": 27700, "preschool_age_population": 26500}],
+      "schools": [{"name": "School 1 Leninsky", "location": {"type": "Point", "coordinates": [74.57, 42.87]}, "capacity": 1200, "current_load": 1000}, {"name": "School 2 Leninsky", "location": {"type": "Point", "coordinates": [74.58, 42.88]}, "capacity": 1200, "current_load": 1100}],
+      "kindergartens": [{"name": "Kindergarten 1 Leninsky", "location": {"type": "Point", "coordinates": [74.56, 42.86]}, "capacity": 300, "current_load": 250}, {"name": "Kindergarten 2 Leninsky", "location": {"type": "Point", "coordinates": [74.59, 42.89]}, "capacity": 300, "current_load": 270}]
+    },
+    {
+      "name": "Oktyabr",
+      "geometry": {"type": "Polygon", "coordinates": [[[74.60, 42.85], [74.65, 42.85], [74.65, 42.90], [74.60, 42.90], [74.60, 42.85]]]},
+      "population_stats": [{"year": 2020, "total_population": 283000, "school_age_population": 26600, "preschool_age_population": 25400}, {"year": 2021, "total_population": 289000, "school_age_population": 27100, "preschool_age_population": 25900}, {"year": 2022, "total_population": 294000, "school_age_population": 27600, "preschool_age_population": 26400}],
+      "schools": [{"name": "School 1 Oktyabr", "location": {"type": "Point", "coordinates": [74.62, 42.87]}, "capacity": 1200, "current_load": 950}],
+      "kindergartens": [{"name": "Kindergarten 1 Oktyabr", "location": {"type": "Point", "coordinates": [74.61, 42.86]}, "capacity": 300, "current_load": 280}]
+    },
+    {
+      "name": "Sverdlov",
+      "geometry": {"type": "Polygon", "coordinates": [[[74.50, 42.80], [74.55, 42.80], [74.55, 42.85], [74.50, 42.85], [74.50, 42.80]]]},
+      "population_stats": [{"year": 2020, "total_population": 285000, "school_age_population": 26800, "preschool_age_population": 25600}, {"year": 2021, "total_population": 291000, "school_age_population": 27300, "preschool_age_population": 26100}, {"year": 2022, "total_population": 296000, "school_age_population": 27800, "preschool_age_population": 26600}],
+      "schools": [{"name": "School 1 Sverdlov", "location": {"type": "Point", "coordinates": [74.52, 42.82]}, "capacity": 1200, "current_load": 1050}],
+      "kindergartens": [{"name": "Kindergarten 1 Sverdlov", "location": {"type": "Point", "coordinates": [74.53, 42.83]}, "capacity": 300, "current_load": 260}]
+    },
+    {
+      "name": "Birinchi May",
+      "geometry": {"type": "Polygon", "coordinates": [[[74.55, 42.80], [74.60, 42.80], [74.60, 42.85], [74.55, 42.85], [74.55, 42.80]]]},
+      "population_stats": [{"year": 2020, "total_population": 282000, "school_age_population": 26500, "preschool_age_population": 25300}, {"year": 2021, "total_population": 288000, "school_age_population": 27000, "preschool_age_population": 25800}, {"year": 2022, "total_population": 293000, "school_age_population": 27500, "preschool_age_population": 26300}],
+      "schools": [{"name": "School 1 Birinchi May", "location": {"type": "Point", "coordinates": [74.57, 42.82]}, "capacity": 1200, "current_load": 980}],
+      "kindergartens": [{"name": "Kindergarten 1 Birinchi May", "location": {"type": "Point", "coordinates": [74.58, 42.83]}, "capacity": 300, "current_load": 270}]
+    }
+  ]
+}
