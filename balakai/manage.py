@@ -2,6 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+<<<<<<< HEAD
 import os
 import django
 
@@ -21,6 +22,9 @@ for district_name in districts:
     District.objects.get_or_create(name=district_name)
 
 print("Районы успешно добавлены!")
+=======
+
+>>>>>>> front
 
 def main():
     """Run administrative tasks."""
